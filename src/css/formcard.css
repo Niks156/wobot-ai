@@ -1,3 +1,43 @@
-.form-card{
-  background: #ffffff;
+.form-card {
+  background-color: #ffffff;
+}
+.form-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+}
+.form-sub-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding: 16px 0;
+  color: #545454;
+}
+.header-img {
+  padding: 1px 0 23px 0;
+}
+.form-body {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #545454;
+}
+.input {
+  height: 37px;
+  width: 368px;
+  border-radius: 6px;
 }
