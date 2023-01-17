@@ -1,13 +1,18 @@
+@import "./css/formcard.css";
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
+  background: #e5e5e5;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main-container {
-  height: 95vh;
+  height: 85vh;
   padding: 10px;
   font-family: "Roboto", sans-serif;
-  background: #e5e5e5;
 }
 
 .logo {
@@ -15,14 +20,11 @@
 }
 
 .form-container {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 97%;
 }
 .form {
   width: 560px;
-  height: 511px;
+  height: 500px;
   background: #ffffff;
   padding: 40px 91px;
   box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);

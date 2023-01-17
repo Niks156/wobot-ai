@@ -13,15 +13,16 @@ export default function App() {
           width={160}
         />
       </div>
-      <div className="form-container">
+      <div className="form-container flex">
         <div className="left-container"></div>
         <div className="form">
           <Formcard />
         </div>
         <div className="right-container"></div>
       </div>
-      <div className="footer-container">
-        <span>Terms of use | </span>
+      <div className="footer-container flex">
+        <span>Terms of use |</span>
+        {' '}
         <span>Privacy policy</span>
       </div>
     </div>

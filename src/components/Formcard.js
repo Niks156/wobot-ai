@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "../app.css";
 
 export default function Formcard() {
   return (
-    <div>
+    <div className='form-card'>
       card
     </div>
   )
