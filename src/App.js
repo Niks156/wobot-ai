@@ -1,6 +1,6 @@
 import React from "react";
 import Formcard from "./components/Formcard";
-import "./app.css";
+import "./App.css";
 
 export default function App() {
   return (
